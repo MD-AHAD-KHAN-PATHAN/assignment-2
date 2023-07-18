@@ -41,4 +41,46 @@ ul {
 .navbar ul li a {
     text-decoration: none;
     font-size: 1.2rem;
+    color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.header-text {
+    background-image: url('images/Group-14.png');
+}
+
+.header-text h2 {
+    font-size: 2rem;
+}
+
+.header-text h1 {
+    font-size: 4rem;
+}
+.header-btn {
+    margin-top: 2rem;
+}
+
+.header-btn .header-btn-1{
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background-color: rgb(237, 51, 129);
+    margin-right: 1rem;
+}
+
+.header-btn .header-btn-2{
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background-color: rgb(51, 237, 237);
+}
+
+.header-image img {
+    height: 30rem;
 }
