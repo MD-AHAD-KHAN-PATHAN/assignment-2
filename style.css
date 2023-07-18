@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 2rem 9rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    display: flex;
+}
+
+.main-logo img {
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.main-logo h3 {
+    font-size: 2rem;
+}
+
+.main-logo h3 span {
+    color: rgb(242, 101, 125);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
