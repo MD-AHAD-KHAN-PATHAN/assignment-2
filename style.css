@@ -265,3 +265,38 @@ ul .fa-apple {
     left: 350px;
     bottom: 170px;
 }
+
+.game-catagory{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.game-catagory div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-right: .5rem;
+    padding: .5rem;
+    border: 1px solid white;
+}
+
+.game-catagory div h3 {
+    color: #0B0223;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: normal;    
+}
+
+.game-catagory div:hover {
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.game-catagory div img {
+    height: 40px;
+    margin-right: .5rem;
+}
