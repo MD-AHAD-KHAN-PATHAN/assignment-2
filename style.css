@@ -108,6 +108,7 @@
     background-color: #F948B2;
     margin-right: 1rem;
     border: none;
+    cursor: pointer;
 }
 
 .header-btn .header-btn-2{
@@ -115,6 +116,7 @@
     border-radius: 3rem;
     background-color: #4EC5F7;
     border: none;
+    cursor: pointer;
 }
 
 .header-image img {
