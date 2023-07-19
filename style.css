@@ -5,8 +5,9 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 9rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
 }
 
 .main-logo {
@@ -262,6 +263,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 0 80px;
 }
 
 .game-catagory div {
@@ -302,9 +304,9 @@ footer {
 }
 
 .footer-content {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 80px 0;
 }
 
 .footer-icon {
@@ -399,8 +401,8 @@ footer p small {
 
     .header-content {
         flex-direction: column;
-        padding: 50px 0;
-        background-size: 600px;
+        background-size: 500px;
+        padding-top: 40px;
     }
 
     .header-image img {
@@ -455,24 +457,46 @@ footer p small {
         bottom: 110px;
         right: 70px;
     }
+
+    .footer-content {
+        padding: 40px 60px;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .navbar {
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         padding: 1rem 0;
+    }
+
+    .main-logo img {
+        height: 1.5rem;
+        margin-right: 1rem;
+    }
+    
+    .main-logo h3 {
+        font-size: 1.5rem;
+    }
+
+    .navbar ul li {
+        padding: .5rem;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
     }
 
     .header-content {
         flex-direction: column;
         padding-top: 20px;
         background-size: 500px;
-        margin: 60px 100px 0;
+        margin: 60px 60px 0;
     }
 
     .header-image img {
         margin-top: 60px;
+        max-height: 400px;
     }
 
     .games-images {
@@ -486,6 +510,23 @@ footer p small {
     .play-instantly-content {
         text-align: center;
         margin-top: 100px;
+    }
+
+    .play-instantly-image-bg {
+        height: 350px;
+    }
+
+    .play-instantly-image-upper img {
+        height: 180px;
+    }
+
+    .play-instantly-image-upper {
+        bottom: 140px;
+        right: 50px;
+    }
+
+    .footer-content {
+        padding: 60px 150px;
     }
 }
 
