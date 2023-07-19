@@ -68,7 +68,7 @@
     background-image: url('images/Group-14.png');
     background-size: 700px;
     background-repeat: no-repeat;
-    padding: 0 80px;
+    padding: 0 40px;
 }
 
 .header-text h2 {
@@ -151,6 +151,7 @@
 
 .games-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -398,10 +399,13 @@ footer p small {
 
     .header-content {
         flex-direction: column;
+        padding: 50px 0;
+        background-size: 600px;
     }
 
     .header-image img {
-        height: 20rem;
+        max-height: 20rem;
+        margin-top: 50px;
     }
 
     /*----- Online games -----*/
@@ -453,7 +457,35 @@ footer p small {
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .navbar {
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0;
+    }
 
+    .header-content {
+        flex-direction: column;
+        padding-top: 20px;
+        background-size: 500px;
+        margin: 60px 100px 0;
+    }
+
+    .header-image img {
+        margin-top: 60px;
+    }
+
+    .games-images {
+        flex-wrap: wrap;
+    }
+
+    .play-instantly {
+        flex-direction: column-reverse;
+    }
+
+    .play-instantly-content {
+        text-align: center;
+        margin-top: 100px;
+    }
 }
 
