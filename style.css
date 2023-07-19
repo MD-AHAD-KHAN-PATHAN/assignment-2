@@ -26,7 +26,7 @@
     color: rgb(242, 101, 125);
 }
 
-ul {
+.navbar ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,16 +40,16 @@ ul {
 }
 
 .apple {
-    border-radius: 8px;
+    border-radius: 50px;
     background-color: rgba(11, 2, 35, 0.10);
 }
 
-ul .fa-youtube {
+.navbar ul .fa-youtube {
     color: #F61C0D;
     margin-left: .5rem;
 }
 
-ul .fa-apple {
+.navbar ul .fa-apple {
     margin-left: .5rem;
     color: rgb(118, 115, 115);
 }
@@ -118,7 +118,7 @@ ul .fa-apple {
     height: 30rem;
 }
 
-/*----- Video Games -----*/
+/*----- Online Games -----*/
 
 .online-games {
     padding: 5rem 0;
@@ -163,6 +163,22 @@ ul .fa-apple {
     height: 250px;
     margin-bottom: 1rem;
 }
+
+.layer {
+    position: absolute;
+}
+
+.layer a {
+    color: #F948B2;
+    font-size: 45px;
+    position: relative;
+    bottom: 165px;
+    left: 90px;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
 
 .game-pic p {
     width: 200px;
@@ -300,3 +316,102 @@ ul .fa-apple {
     height: 40px;
     margin-right: .5rem;
 }
+
+footer {
+    text-align: center;
+    background-color: #0B0223;
+    color: white;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-icon img {
+    height: 40px;
+}
+
+.footer-icon h3 {
+    font-size: 40px;
+}
+
+.footer-icon span {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.footer-btn {
+    
+}
+
+.footer-condition {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-condition p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 2rem 1rem 0;
+}
+
+footer p small {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+/*----- Responsive Layout for mobile -----*/
+
+@media screen and (max-width: 425px) {
+
+    /*----- Navbar -----*/
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        margin: 0;
+    }
+
+    /*----- header content -----*/
+
+    .header-content {
+        flex-direction: column;
+    }
+}
+
