@@ -49,15 +49,16 @@
     margin-left: .5rem;
 }
 
-.navbar ul .fa-apple {
+.navbar ul .fa-linkedin {
     margin-left: .5rem;
-    color: rgb(118, 115, 115);
+    color: rgb(5, 190, 252);
+    font-size: 1.2rem;
 }
 
 .navbar ul li a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .header-content {
@@ -67,6 +68,7 @@
     background-image: url('images/Group-14.png');
     background-size: 700px;
     background-repeat: no-repeat;
+    padding: 0 80px;
 }
 
 .header-text h2 {
@@ -277,6 +279,10 @@
     line-height: normal;    
 }
 
+.game-catagory div:hover h3 {
+    color: #F948B2;
+}
+
 .game-catagory div:hover {
     border: 1px solid #F948B2;
     border-radius: 50px;
@@ -445,5 +451,9 @@ footer p small {
         bottom: 110px;
         right: 70px;
     }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
 }
 
