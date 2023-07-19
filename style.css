@@ -277,14 +277,17 @@
     border: 1px solid white;
 }
 
-.game-catagory div h3 {
+.game-catagory div button {
     color: #0B0223;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
-    line-height: normal;    
+    line-height: normal;
+    background-color: white; 
+    border: none;
+    cursor: pointer;
 }
 
-.game-catagory div:hover h3 {
+.game-catagory div:hover button {
     color: #F948B2;
 }
 
